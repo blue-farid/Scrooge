@@ -1,0 +1,58 @@
+.dashboard-container {
+    text-align: center;
+    padding: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.dashboard-container h2 {
+    color: #333;
+    font-size: 2.2em;
+    margin-bottom: 30px;
+}
+
+.dashboard-container p {
+    color: #555;
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.dashboard-container .report-card {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.dashboard-container .report-card h3 {
+    color: #1a1a1a;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.dashboard-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dashboard-container button:hover {
+    background-color: #0056b3;
+}
+
+.dashboard-container .logo {
+    max-width: 150px; /* Adjust the size as needed */
+    margin: 0 auto 20px; /* Centers the logo and adds some space below */
+    display: block;
+}
